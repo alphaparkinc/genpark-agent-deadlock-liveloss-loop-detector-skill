@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-agent-deadlock-liveloss-loop-detector-skill"
+version = "1.0.0"
+description = "Trajectory state entropy and cyclic repetition detector identifying autonomous agent infinite tool loops and planning deadlocks."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "GenPark AI", email = "engineering@genpark.ai"}]
+keywords = ["ai-agent", "mcp", "safety", "guardrails", "zero-dependency"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://genpark.ai/mcp"
+Repository = "https://github.com/alphaparkinc/genpark-agent-deadlock-liveloss-loop-detector-skill"
