@@ -1,0 +1,26 @@
+{
+  "name": "genpark-agent-deadlock-liveloss-loop-detector-skill",
+  "version": "1.0.0",
+  "description": "Trajectory state entropy and cyclic repetition detector identifying autonomous agent infinite tool loops and planning deadlocks.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "loop-detector",
+    "deadlock-detection",
+    "agent-orchestration",
+    "liveloss",
+    "trajectory-entropy",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "record_action",
+      "description": "Record agent tool call action and evaluate trajectory for infinite loops."
+    },
+    {
+      "name": "run_benchmark_loop_detector",
+      "description": "Run loop detector benchmark suite."
+    }
+  ]
+}
